@@ -1,0 +1,85 @@
+baseURL: "https://mapper.dev"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Mapper.dev"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Mapper.dev"
+  description: "Visualising software systems."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "Hull, East Yorkshire"
+
+  contact:
+    - "dan_humphreys@yahoo.co.uk"
+
+  copyright: "© 2024 Mappertec All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Github"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "About"
+      url: "/#"
+      weight: 2
+
+    - name: "Docs"
+      url: "/#"
+      weight: 3
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 4
+
+taxonomies:
+  series: "series"
+  tags: "tags"
