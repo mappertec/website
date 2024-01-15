@@ -41,25 +41,21 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "Docs"
+      url: "https://docs.mapper.dev/"
       weight: 2
 
-    - name: "Our team"
-      url: "/#"
+    - name: "About"
+      url: "/about"
       weight: 3
-
-    - name: "Pricing"
-      url: "/#"
-      weight: 4
 
     - name: "Blog"
       url: "/blog"
-      weight: 5
+      weight: 4
 
   buttons:
     - name: "Github"
-      url: "/#"
+      url: "https://github.com/mappertec/mapper"
       weight: 5
       pre: "btn btn-primary text-light"
 
